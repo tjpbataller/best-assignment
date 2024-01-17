@@ -1,0 +1,236 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+}
+div#container{
+    background-image: linear-gradient(to bottom, #193853, #2368a1);
+    min-height: 100%;
+}
+    div#container header,
+    div#container nav,
+    div#container main,
+    div#container footer,
+    div#container section div{
+        width: 1200px;
+        margin: auto;
+    }
+        div#container header a{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        div#container header a:nth-child(1){
+            margin-right: 408px;
+        }
+        div#container header a:nth-child(2){
+            font-size: 15px;
+            text-decoration: none;
+            background-image: linear-gradient(to bottom, #ffdc69, #ffdc69);
+            padding: 8px 14px;
+            border-radius: 5px;
+            border: solid 1px #dca900;
+        }
+            div#container header a:nth-child(2):hover{
+                background-image: linear-gradient(to bottom, #ffd240, #c29500);
+            }
+        div#container header form{
+            display: inline-block;
+            vertical-align: center;
+            background-color: #1e2933;
+            margin: 5px;
+            padding: 0;
+            border-radius: 5px;;
+        }
+            div#container header form input:nth-child(1){
+                padding: 8px;
+                border: none;
+                border-radius: 1px;
+                margin-left: 20px;
+            }
+            div#container header form input:nth-child(2){
+                background-image: linear-gradient(to bottom, #3776ab, #2c5d87);
+                text-transform: uppercase;
+                padding: 10px;
+                border: solid 1px #3d83be;
+                border-radius: 4px;
+                color: #e1e1e1;
+                font-size: 14px;
+                margin: 0px 10px;
+                cursor: pointer;
+            }
+                div#container header form input:nth-child(2):hover{
+                    background-image: linear-gradient(to bottom, #1d6cad, #003461);
+                    border-color:#004581;
+                }
+            div#container header form a{
+                display: inline-block;
+                text-decoration: none;
+                color: #b1b1b1;
+                border-left: solid 1px #000000;
+                padding: 0;
+                margin: 0;
+                height: 60px;
+                line-height: 60px;
+                font-size: 15px;
+                padding: 0px 20px;
+                -webkit-box-shadow: inset 1px 0px 0px -20px rgba(255, 255, 255, 0.75);
+                -moz-box-shadow: inset 1px 0px 0px -20px rgba(255, 255, 255, 0.75);
+                box-shadow: inset 1px 0px 0px -20px rgba(255, 255, 255, 0.75);
+            }
+                div#container header form a:hover{
+                    background-image: linear-gradient(to bottom, #253546, #0e151b);
+                }
+    div#container nav{
+        background-image: linear-gradient(to bottom, #3173a8, #285f8d);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+        border-radius: 10px;
+        text-align: center;
+        border-top: 1px solid #619bcb;
+        border-bottom: 1px solid #316997;
+        z-index: 999;
+    }
+        div#container nav a{
+            display: inline-block;
+            text-decoration: none;
+            color: #ddd;
+            vertical-align: middle;
+            padding: 16px 20px;
+            -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.20);
+            -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.20);
+            box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.20);
+            font-size: 18px;
+        }
+            div#container nav a:hover{
+                background-color: #2a5981;
+            }
+    div#container main{
+        padding: 20px 80px 0 80px;
+        position: relative;
+    }
+        div#container main ul{
+            display: inline-block;
+            vertical-align: middle;
+            margin: 20px 0;
+            max-width: 450px;
+        }
+            div#container main ul li{
+                list-style: none;
+                font-size: 28px;
+                font-weight: bolder;
+                color: #ffd359;
+            }
+            div#container main ul li:last-child{
+                color: #ddd;
+                line-height: 28px;
+                font-size: 16px;
+                margin-top: 20px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+        div#container main img{
+            display: block;
+            position: absolute;
+            top: 0px;
+            right: 50px;
+        }
+    div#container section{
+        background-color: #fff;
+        -webkit-box-shadow: 0px 30px 80px 5px rgba(0,0,0,0.50);
+        -moz-box-shadow: 0px 30px 80px 5px rgba(0,0,0,0.50);
+        box-shadow: 0px 30px 80px 5px rgba(0,0,0,0.50);
+        padding: 10px 0 50px 0;
+    }
+        div#container section div{
+            padding: 10px 0px;
+            text-align: center;
+        }
+            div#container section div article{
+                display: inline-block;
+                vertical-align: middle;
+                text-align: left;
+                border-top: solid 5px #75a8d3;
+                padding: 10px 20px;
+                width: 577px;
+                font-size: 15px;
+                margin: 0 10px;
+                max-height: 260px;
+            }
+                div#container section div article p{
+                    border-bottom: 1px solid #aaa;
+                    margin: 0;
+                    padding: 10px 0;
+                }
+                    div#container section div article p a{
+                        margin-left: 15px;
+                        text-decoration: none;
+                        color: #244a6b
+                    }
+                div#container section div article h3{
+                    font-size: 20px;
+                    margin: 0;
+                    padding: 10px 0;
+                    border-bottom: 1px solid #aaa;
+                    position: relative;
+                }
+                    div#container section div article h3 a{
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: #aaa;
+                        position: absolute;
+                        right: 0;
+                    }
+                div#container section div article span{
+                    display: block;
+                    padding: 10px 0;
+                    margin: 0;
+                    border-bottom: 1px solid #aaa;
+                    font-weight: bold;
+                }
+                    div#container section div article span a{
+                        display: inline-block;
+                        font-size: 13px;
+                        font-weight: normal;
+                        background-color: #f0f0f0;
+                        border-bottom: solid #999 1px;
+                        padding: 2px 5px;
+                        color: #777;
+                        vertical-align: top;
+                    }
+    div#container footer{
+        color: #89b4d2;
+        padding: 20px;
+    }
+        div#container footer p{
+            text-align: center;
+        }
+        div#container footer p:nth-child(2){
+            font-size: 12px;
+        }
+            div#container footer p a{
+                text-decoration: none;
+                color: #89b4d2;
+                margin: 5px 15px;
+                font-size: 18px;
+            }
+            div#container footer p:nth-child(2) a{
+                font-size: 12px;
+                margin: 5px 1px;
+                border-bottom: 1px dotted #89b4d2;
+            }
+                div#container footer p a i{
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background-color: green;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                    margin: 2px 5px;
+                    padding: 0;
+                }
